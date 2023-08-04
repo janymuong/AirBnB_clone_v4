@@ -18,9 +18,7 @@ Explores front-end development using `JavaScript` and `jQuery`. The goal is to g
 
 
 #### File Info:
-
 > **Note**:  
-
 > - The `index.html` - i.e. HTML files in [web_dynamic](./web_dynamic) - serve as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality.  
 > - You can find the jQuery library included in the `head` section of the `index.html` files, which enables you to use jQuery methods and selectors in your JavaScript code.  
 > - Chrome DevTools:  
