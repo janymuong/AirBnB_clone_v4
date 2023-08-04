@@ -4,26 +4,42 @@
  <img src="./hack/hbnb_console.png" height="150" width="600" />
 </div>
 
-> `OOP`, `Back-end`, `SQL` - `MySQL`, `ORM`-`SQLAlchemy`, `Flask`-`API`
+> `Front-end`, `JavaScript`
+
 
 ### Background
 
-This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers a RESTful API - based design of the project; 
+This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using an RESTful API developed in previous seriea [AirBnB_clone_v3](https://janymuong)
 
-#### What a RESTful API IS:
+#### JavaScript - jQuery
 
-***REST (Representational State Transfer)*** is an architectural style used in APIs. It uses standard HTTP methods to perform CRUD (Create, Read, Update, Delete) operations on resources. REST is the most popular API architecture for transferring data over the internet. In a RESTful context, resources are accessible via endpoints, and operations are performed on those resources with standard HTTP methods such as GET, POST, PUT, and DELETE.
-A RESTful API architecture is Resource-based, a resource is an object and can be access by a `URI`. An object is “displayed”/transferred via a representation (typically JSON).
+Explores front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
 
 
-### Basic Functionality
+##### File Info:
+> **Note**:  
+> - The `index.html` - i.e. HTML files in [web_dynamic](./web_dynamic) - serve as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality.
+
+> - You can find the jQuery library included in the `head` section of the `index.html` files, which enables you to use jQuery methods and selectors in your JavaScript code.  
+> - Chrome DevTools:  
+>> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
+>> Press `Ctrl+Shift+I` /or `fn + f12` (or `Cmd+Option+I` on *macOS*) to open DevTools.  
+
+
+Semistandard compliant : `semistandard *.js --global $`  
+[![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
+
+
+
+### AirBnB CLONE Basic Functionality:
 
 `Specifications`:
 ```bash
-    - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
-    - A website (the front-end) that shows the final product to everybody: static and dynamic
-    - A database or files that store data (data = objects)
-    - An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them):
+    - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging) - AirBnB_clone
+    - A website (the front-end) that shows the final product to everybody: static and dynamic - load objects from the client side by using from RESTful API - AirBnB_clone_v4
+
+    - A database or files that store data (data = objects) - AirBnB_clone_v2
+    - An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them) - AirBnB_clone_v3:
         - expose all your objects stored via a JSON web interface
         - manipulate your objects via a RESTful API
 ```
