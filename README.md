@@ -47,6 +47,7 @@ Semistandard compliant : `semistandard *.js --global $`
 ```
 
 <br/><br/>
+
 ### File Hierarchy:
 
 > Repository Contents Info:  
@@ -89,7 +90,6 @@ Semistandard compliant : `semistandard *.js --global $`
 ## Command Interprter
 > `command-line interface`<br/>
 > a shell implementation that uses the `Python` module `cmd`, which provides a simple framework for writing line-oriented command interpreters.
-
 
 
 ## `Shell` Behavior:
@@ -141,7 +141,6 @@ Advanced syntax is implemented for the following commands:
 
     * update - Updates existing attributes an object based on class name and UUID
 
-<br>
 <br>
 
 <center> <h2>Command Palette Examples</h2> </center>
@@ -218,7 +217,8 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) User.all()
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
-<br>
+
+<br/><br/>
 
 ---
 ## Python Unit Tests
