@@ -9,7 +9,7 @@
 
 ### Background
 
-This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using an RESTful API developed in previous seriea [AirBnB_clone_v3](https://janymuong)
+This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using an RESTful API developed in previous series: [AirBnB_clone_v3](https://github.com/janymuong/AirBnB_clone_v3)
 
 
 ### JavaScript - jQuery
@@ -18,6 +18,7 @@ Explores front-end development using `JavaScript` and `jQuery`. The goal is to g
 
 
 #### File Info:
+
 > **Note**:  
 > - The `index.html` - i.e. HTML files in [web_dynamic](./web_dynamic) - serve as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality.  
 > - You can find the jQuery library included in the `head` section of the `index.html` files, which enables you to use jQuery methods and selectors in your JavaScript code.  
