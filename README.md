@@ -1,4 +1,4 @@
-# AirBnB clone - RESTful API
+# AirBnB clone - Web dynamic
 
 <div align="center">
  <img src="./hack/hbnb_console.png" height="150" width="600" />
@@ -11,25 +11,26 @@
 
 This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using an RESTful API developed in previous seriea [AirBnB_clone_v3](https://janymuong)
 
-#### JavaScript - jQuery
+
+### JavaScript - jQuery
 
 Explores front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
 
 
-##### File Info:
+#### File Info:
 > **Note**:  
 > - The `index.html` - i.e. HTML files in [web_dynamic](./web_dynamic) - serve as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality.
-
 > - You can find the jQuery library included in the `head` section of the `index.html` files, which enables you to use jQuery methods and selectors in your JavaScript code.  
 > - Chrome DevTools:  
 >> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
 >> Press `Ctrl+Shift+I` /or `fn + f12` (or `Cmd+Option+I` on *macOS*) to open DevTools.  
 
+<br/><br/>
 
 Semistandard compliant : `semistandard *.js --global $`  
 [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
 
-
+<br/><br/>
 
 ### AirBnB CLONE Basic Functionality:
 
@@ -44,7 +45,7 @@ Semistandard compliant : `semistandard *.js --global $`
         - manipulate your objects via a RESTful API
 ```
 
-
+<br/><br/>
 ### File Hierarchy:
 
 > Repository Contents Info:  
@@ -81,6 +82,7 @@ Semistandard compliant : `semistandard *.js --global $`
     └── Frontend of the application directory hosting static files: CSS, HTML, Images.
 ```
 
+<br/><br/>
 
 ---
 ## Command Interprter
