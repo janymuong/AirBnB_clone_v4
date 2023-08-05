@@ -3,23 +3,23 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    display: grid;
-}
-header .logo {
     background: url("../images/logo.png") no-repeat;
-    left: 20px;
-    height: 100%;
+    background-position: 20px 50%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
 }
-header #api_status{
-    display: inline-block;
-    position: relative;
-    left: calc(100% - 40px);
-    transform: translateX(-100%);
+
+.circle-api-status {
+    background-color: #cccccc;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
-    background: #cccccc;
-    border-radius: 50%;
-}
-header .available{
-    background: #ff545f;
-}
+    margin-right: 30px;
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  header .available {
+    background-color: #ff545f;
+  }
