@@ -1,8 +1,10 @@
-// Amenities event listener - OnCheck
+// jQuery AJAX;
+
 $(document).ready(function () {
+  // Amenities event listener - OnCheck
   const amenities = {};
 
-  function amenityListener () {
+  function amenityListener() {
     const checkedAmenities = Object.values(amenities).join(', ');
     $('.amenities > h4').text(checkedAmenities);
   }
@@ -20,4 +22,19 @@ $(document).ready(function () {
 
     amenityListener();
   });
+
+  // API status function:
+  function checkAPIStatus() {
+    const apiUrl = 'http://' + window.location.hostname + ':5001/api/v1/status/';
+    $.get(apiUrl, function (data) {
+      if (data.status === 'OK') {
+        $('#api_status').addClass('available');
+      } else {
+        $('#api_status').removeClass('available');
+      }
+    });
+  }
+
+  // on page load:
+  checkAPIStatus();
 });
