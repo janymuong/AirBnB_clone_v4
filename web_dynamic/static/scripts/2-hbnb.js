@@ -25,7 +25,7 @@ $(document).ready(function () {
 
   // API status function:
   function checkAPIStatus() {
-    const apiUrl = 'http://0.0.0.0:5001/api/v1/status/';
+    const apiUrl = 'http://' + window.location.hostname + ':5001/api/v1/status/';
     $.get(apiUrl, function (data) {
       if (data.status === 'OK') {
         $('#api_status').addClass('available');
