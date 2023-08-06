@@ -28,7 +28,7 @@ Explores front-end development using `JavaScript` and `jQuery`. The goal is to g
 <br/>
 
 > - Semistandard compliant : `semistandard *.js --global $`  
->> File solutions in [web_dynamic/static/scripts/](./web_dynamic/static/script) use this standard.  
+>> File solutions in [web_dynamic/static/scripts/](./web_dynamic/static/scripts) use this standard.  
 >> [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
 
 <br/><br/>
