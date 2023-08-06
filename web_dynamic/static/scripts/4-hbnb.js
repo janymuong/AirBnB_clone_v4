@@ -2,7 +2,7 @@ $(document).ready(function () {
   // Amenities event listener - OnCheck
   const amenities = {};
 
-  function amenityListener() {
+  function amenityListener () {
     const checkedAmenities = Object.values(amenities).join(', ');
     $('.amenities > h4').text(checkedAmenities);
   }
@@ -22,7 +22,7 @@ $(document).ready(function () {
   });
 
   // Function to fetch and display places from the backend:
-  function getDbPlaces() {
+  function getDbPlaces () {
     const apiUrl = 'http://' + window.location.hostname + ':5001/api/v1/places_search/';
     const requestBody = '{}';
 
@@ -41,12 +41,12 @@ $(document).ready(function () {
   }
 
   // Filter places by amenities:
-  function filterPlacesByAmenities() {
+  function filterPlacesByAmenities () {
     const amenities = $('.amenities input[type="checkbox"]:checked').map(function () {
       return $(this).parent().data('id');
     }).get();
 
-    const requestBody = JSON.stringify({ amenities: amenities });
+    const requestBody = JSON.stringify({ amenities });
 
     const apiUrl = 'http://' + window.location.hostname + ':5001/api/v1/places_search/';
     $.ajax({
@@ -64,7 +64,7 @@ $(document).ready(function () {
   }
 
   // create <article> tags representing places and append them to the section.places
-  function renderPlaces(placesData) {
+  function renderPlaces (placesData) {
     const placesSection = $('.places');
     placesSection.empty();
 
@@ -90,7 +90,7 @@ $(document).ready(function () {
   }
 
   // API status function:
-  function checkAPIStatus() {
+  function checkAPIStatus () {
     const apiUrl = 'http://' + window.location.hostname + ':5001/api/v1/status/';
     $.get(apiUrl, function (data) {
       if (data.status === 'OK') {
