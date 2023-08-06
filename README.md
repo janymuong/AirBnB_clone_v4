@@ -19,15 +19,16 @@ Explores front-end development using `JavaScript` and `jQuery`. The goal is to g
 
 #### File Info:
 > **Note**  
-> - The `index.html` - i.e. HTML files in [web_dynamic](./web_dynamic) - serve as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality.  
-> - You can find the jQuery library included in the `head` section of the `index.html` files, which enables you to use jQuery methods and selectors in your JavaScript code.  
+> - The `index.html` - i.e. HTML files in [web_dynamic/templates](./web_dynamic/templates/) - serve as the main entry point for the application. This files are rendered by the Flask routes to interact with the JavaScript functionality.  
+> - You can find the jQuery library included in the `head` section of each `HTML` file, which enables you to use jQuery methods and selectors in your JavaScript code.  
 > - Chrome DevTools:  
 >> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
 >> Press `Ctrl+Shift+I` /or `fn + f12` (or `Cmd+Option+I` on *macOS*) to open DevTools.  
 
 <br/>
 
-Semistandard compliant : `semistandard *.js --global $`  
+> Semistandard compliant : `semistandard *.js --global $`  
+> Files solutions in [web_dynamic/static/scripts/](./web_dynamic/static/scripts/) are use this standard.  
 [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
 
 <br/><br/>
@@ -36,11 +37,11 @@ Semistandard compliant : `semistandard *.js --global $`
 
 `Specifications`:
 ```bash
-    - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging) - AirBnB_clone
-    - A website (the front-end) that shows the final product to everybody: static and dynamic - load objects from the client side by using from RESTful API - AirBnB_clone_v4
+    - AirBnB_clone - a command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
+    - AirBnB_clone_v4 (this focus) - a website (the front-end) that shows the final product to everybody: static and dynamic - load objects from the client side by using from RESTful API
 
-    - A database or files that store data (data = objects) - AirBnB_clone_v2
-    - An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them) - AirBnB_clone_v3:
+    - AirBnB_clone_v2 - a database or files that store data (data = objects)
+    -  AirBnB_clone_v3 - an API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them):
         - expose all your objects stored via a JSON web interface
         - manipulate your objects via a RESTful API
 ```
