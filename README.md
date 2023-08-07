@@ -8,16 +8,12 @@
 
 
 ## Background
+> JavaScript - jQuery  
 
-This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using an RESTful API developed in previous series: [AirBnB_clone_v3](https://github.com/janymuong/AirBnB_clone_v3)
-
-
-### JavaScript - jQuery
-
-Explores front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
+This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific part covers web dynamic content development w/ `JavaScript`and `JQuery`. We load objects from the client side by using a RESTful API developed in previous series: [AirBnB_clone_v3](https://github.com/janymuong/AirBnB_clone_v3). The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
 
 
-#### File Info:
+### File Info:
 > **Note**  
 > - The `index.html` - i.e. HTML files in [web_dynamic/templates](./web_dynamic/templates) - serve as the main entry point for the application. This files are rendered by the Flask routes to interact with the JavaScript functionality.  
 > - You can find the jQuery library included in the `head` section of each `HTML` file, which enables you to use jQuery methods and selectors in your JavaScript code.  
