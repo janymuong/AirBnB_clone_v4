@@ -37,7 +37,7 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
     - AirBnB_clone_v4 (this focus) - a website (the front-end) that shows the final product to everybody: static and dynamic - load objects from the client side by using from RESTful API
 
     - AirBnB_clone_v2 - a database or files that store data (data = objects)
-    -  AirBnB_clone_v3 - an API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them):
+    - AirBnB_clone_v3 - an API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them):
         - expose all your objects stored via a JSON web interface
         - manipulate your objects via a RESTful API
 ```
@@ -64,7 +64,20 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
     ├── __init__.py - effectively make a `Python` Package out of these modules, for Python test discovery.
     └── test_models/ - files that test models eg test_base_model.py, test_user.py, test_review.py
         └── __init__.py - effectively make a `Python` Package out of these modules, for Python test discovery.
-
+...
+├── web_dynamic - JavaScript jQuary, Flask Routing etc - focus of AirBnB v4
+│   ├── *-hbnb.py - Routing file
+│   ├── 100-dump.sql - file for database Dump to get mock data for user-facing of MVC
+│   ├── static
+│   │   ├── images
+│   │   │   ├── icon.png
+│   │   ├── scripts
+│   │   │   └── *-hbnb.js - JQuery for DOM manipulation
+│   │   └── styles - CSS
+│   ├── templates - Jinja Templates
+│   │   └── *-hbnb.html
+│   └── w3c_validator.py
+...
 ├── web_flask
 │   ├── *.py - Flask routing files
 │   ├── README.md
@@ -78,6 +91,29 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
 │       └── *.html
 └── web_static
     └── Frontend of the application directory hosting static files: CSS, HTML, Images.
+```
+
+<br/><br/>
+
+## Prepping Database:
+
+- Create MySQL User and Database; dump mock db data;
+
+```bash
+$ cat setup_mysql_dev.sql | sudo mysql # -uroot -p # if root user uses passwd
+$ cat web_dynamic/100-dump.sql | sudo mysql # -uroot -p # if root user uses passwd
+```
+
+- Run Flask app on port `5000` and `5001`:
+```bash
+# terminal 1:
+$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.*-hbnb 
+# where *-hbnb  is any of the Flask routing files
+```
+
+```bash
+# terminal 2:
+$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_PORT=5001 python3 -m api.v1.app
 ```
 
 <br/><br/>
