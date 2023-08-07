@@ -24,7 +24,7 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
 <br/>
 
 > - Semistandard compliant : `semistandard *.js --global $`  
->> File solutions in [web_dynamic/static/scripts/](./web_dynamic/static/scripts) use this standard.  
+>> File solutions in [web_dynamic/static/scripts/](./AirBnB_clone_v4/web_dynamic/static/scripts) use this standard.  
 >> [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
 
 <br/><br/>
