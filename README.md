@@ -15,7 +15,7 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
 
 ### File Info:
 > **Note**  
-> - The `index.html` - i.e. HTML files in [web_dynamic/templates](.web_dynamic/templates) - serve as the main entry point for the application. This files are rendered by the Flask routes to interact with the JavaScript functionality.  
+> - The `index.html` - i.e. HTML files in [web_dynamic/templates](./web_dynamic/templates/) - serve as the main entry point for the application. This files are rendered by the Flask routes to interact with the JavaScript functionality.  
 > - You can find the jQuery library included in the `head` section of each `HTML` file, which enables you to use jQuery methods and selectors in your JavaScript code.  
 > - Chrome DevTools:  
 >> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
@@ -24,7 +24,7 @@ This is a clone of the [AirBnB website](https://www.airbnb.com/). This specific 
 <br/>
 
 > - Semistandard compliant : `semistandard *.js --global $`  
->> File solutions in [web_dynamic/static/scripts/](.web_dynamic/static/scripts) use this standard.  
+>> File solutions in [web_dynamic/static/scripts/](./web_dynamic/static/scripts/) use this standard.  
 >> [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)  
 
 <br/><br/>
